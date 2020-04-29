@@ -8,7 +8,7 @@
 // Pro Material - lição 7 - do Casale - Udemy
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-// Pro PrimeNg - No site não indica isto, indica colocar no angular.json,  mas só funcionou assim !!  - 25/07/19 
+// Pro PrimeNg - No site não indica isto, indica colocar no angular.json,  mas só funcionou assim !!  - 25/07/19
 
 @import "~primeicons/primeicons.css";
 @import "~primeng/resources/themes/nova-light/theme.css";
@@ -107,102 +107,3 @@ bs-daterangepicker-container{
 }
 
 
-
-
-// /*
-//  *
-//  *   INSPINIA - Responsive Admin Theme
-//  *   version 2.7.1
-//  *
-// */
-// // Google Fonts
-// @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-
-// // Variables, Mixins
-// @import "assets/scss/variables";
-// @import "assets/scss/mixins";
-
-// // INSPINIA Theme Elements
-// @import "assets/scss/typography";
-// @import "assets/scss/navigation";
-// @import "assets/scss/top_navigation";
-// @import "assets/scss/buttons";
-// @import "assets/scss/badges_labels";
-// @import "assets/scss/elements";
-// @import "assets/scss/sidebar";
-// @import "assets/scss/base";
-// @import "assets/scss/pages";
-// @import "assets/scss/chat";
-// @import "assets/scss/metismenu";
-// @import "assets/scss/spinners";
-
-// // Landing page styles
-// // @import "assets/scss/landing";
-
-// // RTL Support
-// @import "assets/scss/rtl";
-
-// // For demo only - config box style
-// @import "assets/scss/theme-config";
-
-// // INSPINIA Skins
-// @import "assets/scss/skins";
-// @import "assets/scss/md-skin";
-
-// // Media query style
-// @import "assets/scss/media";
-
-// // Custom style
-// // Your custom style to override base style
-// @import "assets/scss/custom";
-
-// // Clear layout on print mode
-// @media print {
-//   nav.navbar-static-side {
-//     display: none;
-//   }
-//   body { overflow: visible !important; }
-
-//   #page-wrapper {
-//     margin: 0;
-//   }
-// }
-// bs-datepicker-container {
-//   z-index: 3000;
-// }
-// bs-daterangepicker-container{
-//   z-index: 3000;
-// }
-// .td-action{
-//   width: 120px
-// }
-// .search-link {
-//     cursor: pointer;
-//     color: #1ab394;
-// }
-
-// .search-link:hover {
-//   color: #1b7a67;
-// }
-
-// .search-bar {
-//     opacity: 0;
-//     max-height: 0px;
-// }
-
-// .modal-xl{
-//   width: 80%;
-// }
-
-// .text-grey {
-//   color: lightgrey
-// }
-// .hidden {
-//   display:none
-// }
-// .ibox {
-//   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-// }
-// .page-heading{
-//   box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.34), 0 0 6px 0 rgba(0, 0, 0, 0.14);
-// }
