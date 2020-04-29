@@ -9,7 +9,7 @@ import * as moment from 'moment';
 })
 export class FooterComponent implements OnInit {
 
-  anoAtual = moment(Date.now()).format('YYYY');
+  // anoAtual = moment(Date.now()).format('YYYY');
 
   constructor() { }
 
