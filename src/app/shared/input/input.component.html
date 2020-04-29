@@ -1,0 +1,8 @@
+<div class="form-group" [class.has-success]="hasSuccess()" [class.has-error]="hasError()">
+  <label [class]="labelCol">{{label}}</label>
+  <div [class]="inputCol">
+    <ng-content></ng-content>
+    <span class="help-block" *ngIf="showTip && hasSuccess()" [@expand]><i class="fa fa-check"></i> Campo verificado</span>
+    <span class="help-block" *ngIf="showTip && hasError()" [@expand]><i class="fa fa-remove"></i> {{errorMessage}}</span>
+  </div>
+</div>

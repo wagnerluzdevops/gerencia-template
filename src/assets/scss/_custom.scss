@@ -1,0 +1,99 @@
+body {
+  font-size: 13px;
+}
+/* Only demo */
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+@media (max-width: 1074px) {
+  .table-responsive .dropdown-menu {
+      position: relative !important;
+      position: sticky !important;
+      left: -100px !important;
+  }
+}
+@media (min-width: 1075px) {
+  .table-responsive .dropdown-menu {
+      left: -100px !important;
+  }
+}
+@media (min-width: 1075px) {
+  .table-responsive {
+      overflow: visible;
+  }
+}
+
+.meudashboardlogin {
+  /* background-color: #d9e0e7; */
+  background: url(assets/img/dashboard/universo.jpeg) top center no-repeat;
+  // background: url(/assets/img/dashboard/universo.jpeg) top center no-repeat;
+  // background-size: 100% 100% !important;
+  background-size: cover;
+  // height: 400px;
+  // text-align: center;
+  //font-size: 20px;
+  min-height: 100%;
+  padding: 70px 20px;
+ }
+
+ .meudashboard {
+  /* background-color: #d9e0e7; */
+  background: url(assets/img/dashboard/universo.jpeg) top center no-repeat;
+  // background-color: darkcyan;
+  // background-size: 100% 100% !important;
+  background-size: cover;
+  min-height: 840px;
+  // min-height: 100% !important;
+  // text-align: center;
+  //font-size: 20px;
+  padding: 70px 100px;
+ }
+
+
+ .meudashboard > h1 {
+  font-size: 40px;
+ // margin-top: 100px;
+}
+.meudashboard > p {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.loginscreen , .logo-name{
+  color: white;
+  // letter-spacing: 1px;
+}
+
+.loginscreen .logo-name{
+  font-size: 100px;
+  letter-spacing: -2px;
+}
+
+
+
+
+.loginscreen .m-t {
+  font-size: 120%;
+  font-weight: 800;
+  color: darkcyan;
+}
+
+.loginscreen .m-t_dctp {
+  font-size: 120%;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  // text-shadow: 1px 1px rgb(239, 243, 243);
+}
+
+
+@media (min-width: 768px) {
+  #page-wrapper_custom {
+    position: inherit;
+    margin: 0px;
+    // min-height: 2002px;
+  }
+}
+
